@@ -99,7 +99,7 @@ Adaptive-$k$ via silhouette sweep is therefore mandatory; fixed small-$k$ settin
 
 ## Limitations
 
-See `paper_workshop.tex` §7 for the full list. Highlights:
+See `docs/paper_workshop.tex` §7 for the full list. Highlights:
 - Single Brev H100 run, single seed (42).
 - $\arg\max$ flipping not achieved at $\alpha \in \{1,3,5\}$; F2 is on continuous calibrated probabilities.
 - Single architecture (Mistral-7B); cross-architecture replication on Llama / Qwen is left for follow-up.
